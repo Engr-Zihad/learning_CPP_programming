@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+int a = 100;
 int main ()
 {
     int a,b;
@@ -18,5 +19,6 @@ int main ()
         cout<<"a is not divisible by b"<<endl;
     }
     cout<<"the mult is "<<a*b<<endl;
+    cout<<"the global "<<::a;
     return 0;
 }
