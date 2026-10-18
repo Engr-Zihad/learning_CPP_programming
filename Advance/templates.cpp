@@ -18,7 +18,7 @@ class sum
 };
 int main ()
 {
-    sum<int , float > z(5,5.5);
+    sum<int , char > z(3,'a');
     z.displaysum();
     return 0;
 }
