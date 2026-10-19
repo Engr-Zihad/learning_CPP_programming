@@ -11,6 +11,7 @@ int main() {
     vec.push_back({1, {'A', 3.98}});
     vec.push_back({2, {'B', 4.98}});
     vec.push_back({3, {'C', 5.98}});
+    vec.emplace_back(4, make_pair('D', 6.98));
     for (pair<int, pair <char, float>> p : vec)
     {
         cout<<p.first<<" "<<p.second.first<<" "<<p.second.second<<endl;
